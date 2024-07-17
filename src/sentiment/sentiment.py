@@ -1,6 +1,6 @@
 from sklearn.cluster import KMeans
 from afinn import Afinn
-from clustering import cluster_pipeline
+from clustering.clustering import cluster_pipeline
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import math
